@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        title #{title} - My Flask/Jade Application
+        include ./scripts
+    body
+        block header
+            include ./header
+        .container.body-content
+            block content
+        block footer
+            include ./footer
+        

@@ -1,0 +1,15 @@
+extends layout
+block content
+    .container.text-center
+        .logo-404
+            a(href='/')
+                img(src='/static/images/home/logo.png', alt='')
+        .content-404
+            img.img-responsive(src='/static/images/404/404.png', alt='')
+            h1
+                b OPPS!
+                |  We Couldn&rsquo;t Find this Page
+            p
+                | Uh... So it looks like you brock something. The page you are looking for has up and Vanished.
+            h2
+                a(href='/') Bring me back Home
